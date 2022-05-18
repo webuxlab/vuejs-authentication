@@ -1,0 +1,25 @@
+{
+  "name": "@webuxlab/wl-authentication",
+  "version": "1.0.1",
+  "private": false,
+  "description": "Simple Bootstrap 5 vuejs authentication module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "files": [
+    "dist/*"
+  ],
+  "author": "Studio Webux S.E.N.C",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^3.2.21"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.31",
+    "rollup": "^2.70.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}
